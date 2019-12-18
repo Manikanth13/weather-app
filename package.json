@@ -2,6 +2,7 @@
   "name": "optile-weather-app",
   "version": "0.1.0",
   "private": true,
+  "homepage": "http://manikanth13.github.io/optile-coding-task",
   "dependencies": {
     "@material-ui/core": "^4.8.0",
     "@material-ui/icons": "^4.5.1",
@@ -18,7 +19,9 @@
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "jest",
-    "eject": "react-scripts eject"
+    "eject": "react-scripts eject",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build"
   },
   "eslintConfig": {
     "extends": "react-app"
@@ -41,6 +44,7 @@
     "babel-jest": "^24.9.0",
     "enzyme": "^3.10.0",
     "enzyme-adapter-react-16": "^1.15.1",
+    "gh-pages": "^2.1.1",
     "jest": "^24.9.0"
   }
 }

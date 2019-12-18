@@ -1,6 +1,6 @@
 import { groupWeatherData } from "../utils";
 
-const api = "http://api.openweathermap.org/data/2.5/forecast";
+const api = "https://api.openweathermap.org/data/2.5/forecast";
 const APPID = '75f972b80e26f14fe6c920aa6a85ad57';
 
 const Types = {
