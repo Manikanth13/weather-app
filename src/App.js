@@ -1,26 +1,43 @@
-import React from 'react';
-import logo from './logo.svg';
+import React, { PureComponent, Fragment } from 'react';
 import './App.css';
+import Header from './components/Header';
+import HomePage from './components/HomePage';
+import { connect } from 'react-redux';
+import ACTIONS from './action';
+import { Typography } from '@material-ui/core';
 
-function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
-}
+export class App extends PureComponent {
+    componentDidMount() {
+      // can have a select box to set city
+      this.props.fetchData && this.props.fetchData('Munich,de', 40);
+    };
 
-export default App;
+    render() {
+      const {isLoading} = this.props;
+        return (
+            <div className="App">
+                {isLoading ? (
+                  <Typography component="div" style={{ backgroundColor: '#cfe8fc', height: '100vh', padding: 100 }}>Loading...</Typography>
+                ) : (
+                  <Fragment>
+                      <Header />
+                      <HomePage />
+                  </Fragment>
+                )}
+            </div>
+        );
+    }
+};
+
+const mapStateToProps = state => ({
+  isLoading: state.isLoading
+});
+
+const mapDispatchToProps = dispatch => ({
+  fetchData: (city, count) => dispatch(ACTIONS.fetchData(city, count))
+})
+
+export default connect(
+  mapStateToProps,
+  mapDispatchToProps
+)(App);
