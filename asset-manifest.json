@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/optile-coding-task/static/css/main.d1b05096.chunk.css",
+    "main.js": "/optile-coding-task/static/js/main.1845d8ad.chunk.js",
+    "main.js.map": "/optile-coding-task/static/js/main.1845d8ad.chunk.js.map",
+    "runtime-main.js": "/optile-coding-task/static/js/runtime-main.0e554471.js",
+    "runtime-main.js.map": "/optile-coding-task/static/js/runtime-main.0e554471.js.map",
+    "static/js/2.e5224695.chunk.js": "/optile-coding-task/static/js/2.e5224695.chunk.js",
+    "static/js/2.e5224695.chunk.js.map": "/optile-coding-task/static/js/2.e5224695.chunk.js.map",
+    "index.html": "/optile-coding-task/index.html",
+    "precache-manifest.b800c3aa1f6dd90555ce6451624e17c7.js": "/optile-coding-task/precache-manifest.b800c3aa1f6dd90555ce6451624e17c7.js",
+    "service-worker.js": "/optile-coding-task/service-worker.js",
+    "static/css/main.d1b05096.chunk.css.map": "/optile-coding-task/static/css/main.d1b05096.chunk.css.map",
+    "static/js/2.e5224695.chunk.js.LICENSE": "/optile-coding-task/static/js/2.e5224695.chunk.js.LICENSE"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.0e554471.js",
+    "static/js/2.e5224695.chunk.js",
+    "static/css/main.d1b05096.chunk.css",
+    "static/js/main.1845d8ad.chunk.js"
+  ]
+}
