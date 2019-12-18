@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
 
 importScripts(
-  "/optile-coding-task/precache-manifest.b800c3aa1f6dd90555ce6451624e17c7.js"
+  "/optile-coding-task/precache-manifest.d01897c5bdad104d7a5447409669aba1.js"
 );
 
 self.addEventListener('message', (event) => {
