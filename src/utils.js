@@ -1,6 +1,6 @@
 export const convertTemp = (temp, type) => {
     if (type === 'c') {
-        return Number((((temp - 32) * 5) / 9).toFixed(2));
+        return Number(Math.round(((temp - 32) * (5 / 9))+'e2')+'e-2');
     }
     return temp;
 };
