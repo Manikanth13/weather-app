@@ -1,14 +1,14 @@
 {
   "files": {
     "main.css": "/optile-coding-task/static/css/main.d1b05096.chunk.css",
-    "main.js": "/optile-coding-task/static/js/main.7ff05c7c.chunk.js",
-    "main.js.map": "/optile-coding-task/static/js/main.7ff05c7c.chunk.js.map",
+    "main.js": "/optile-coding-task/static/js/main.dffc2b40.chunk.js",
+    "main.js.map": "/optile-coding-task/static/js/main.dffc2b40.chunk.js.map",
     "runtime-main.js": "/optile-coding-task/static/js/runtime-main.0e554471.js",
     "runtime-main.js.map": "/optile-coding-task/static/js/runtime-main.0e554471.js.map",
     "static/js/2.e5224695.chunk.js": "/optile-coding-task/static/js/2.e5224695.chunk.js",
     "static/js/2.e5224695.chunk.js.map": "/optile-coding-task/static/js/2.e5224695.chunk.js.map",
     "index.html": "/optile-coding-task/index.html",
-    "precache-manifest.d01897c5bdad104d7a5447409669aba1.js": "/optile-coding-task/precache-manifest.d01897c5bdad104d7a5447409669aba1.js",
+    "precache-manifest.3014cd2d1b465b5cf626c5fc64e00946.js": "/optile-coding-task/precache-manifest.3014cd2d1b465b5cf626c5fc64e00946.js",
     "service-worker.js": "/optile-coding-task/service-worker.js",
     "static/css/main.d1b05096.chunk.css.map": "/optile-coding-task/static/css/main.d1b05096.chunk.css.map",
     "static/js/2.e5224695.chunk.js.LICENSE": "/optile-coding-task/static/js/2.e5224695.chunk.js.LICENSE"
@@ -17,6 +17,6 @@
     "static/js/runtime-main.0e554471.js",
     "static/js/2.e5224695.chunk.js",
     "static/css/main.d1b05096.chunk.css",
-    "static/js/main.7ff05c7c.chunk.js"
+    "static/js/main.dffc2b40.chunk.js"
   ]
 }

@@ -1,10 +1,10 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "24d9036ab38052747313c5bcdfa4135e",
+    "revision": "d1d60be48466b1fedf29ba2cde731246",
     "url": "/optile-coding-task/index.html"
   },
   {
-    "revision": "dcc4e1d8efb879b1ac41",
+    "revision": "ea3096d6b040f79b4134",
     "url": "/optile-coding-task/static/css/main.d1b05096.chunk.css"
   },
   {
@@ -16,8 +16,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/optile-coding-task/static/js/2.e5224695.chunk.js.LICENSE"
   },
   {
-    "revision": "dcc4e1d8efb879b1ac41",
-    "url": "/optile-coding-task/static/js/main.7ff05c7c.chunk.js"
+    "revision": "ea3096d6b040f79b4134",
+    "url": "/optile-coding-task/static/js/main.dffc2b40.chunk.js"
   },
   {
     "revision": "fd33f810d60734e72037",
